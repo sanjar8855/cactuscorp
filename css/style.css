@@ -1,0 +1,409 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Black.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-BlackItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-BoldItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Italic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Light.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-LightItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-MediumItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-Thin.ttf') format('truetype'), 
+		url('../fonts/Montserrat/Montserrat-ThinItalic.ttf') format('truetype'), 
+	font-weight: normal;
+	font-style: normal;
+}
+      @font-face {
+        font-family: 'CactusCuties';
+        src: url('../fonts/CactusCuties1.ttf') format('truetype'),
+            url('../fonts/CactusCuties2.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+body{
+	background: white;
+}
+/* header */
+header, nav, footer{
+	display:block;
+}
+header{
+	background: #F3F3F3;
+	/*width: inherit;*/
+}
+nav{
+	/*height: 80px;*/
+}
+nav div div ul li a{
+	font-family: 'Montserrat';
+	font-size: 100%;
+	font-weight: bold;
+	color:#656464;
+}
+.navbar-brand{
+	margin: 0;
+	padding: 0;
+}
+#logo{
+	width: 100px;
+}
+.navbar-right li a{
+	color:#4D8802!important;
+	margin-left:10px;
+	/*margin-right:10px;*/
+}
+#acc{
+	border:1px solid #666666;
+	border-radius: 15px;
+	border-radius:#666666;
+}
+#for-com{
+	background: #4D8802;
+	color:white!important;
+	/*margin-right:-20px;*/
+}
+/* /header */
+
+/* content */
+.header-text{
+	font-size:350%;
+	text-align: center;
+	color:#4D8802;
+}
+.divimg img{
+	width: 100%;
+	/*text-align: center;*/
+}
+.header-text span{
+	font-weight: bold;	
+}
+/**/
+.poisk{
+	border-radius: 30px;
+	background: #4D8802;
+	padding: 15px;
+	height:20%;
+	margin:10px auto;
+	/*width: 90%;*/
+}
+.poisk .form-inline label{
+	color:white;
+	font-weight:normal;
+}
+.form-group input{
+	width: 80%!important;
+	margin-left:50px;
+	/*margin-right:30px;*/
+}
+.form-inline button{
+	background: #4D8802;
+	color:white;
+}
+.form-inline button:hover{
+	background: white;
+	color:#4D8802;
+}
+/**/
+#cat-block{
+	background: #fff;
+	filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+	border-left:10px solid #CF8B4D;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left:20px;
+}
+h1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+#cat-block .c-left img{
+	margin-top:20px;
+	width: 50px;
+	height: 50px;
+}
+
+#cat-block .c-left, #cat-block .c-right{
+	display: inline-block;
+}
+
+#cat-block .c-right{
+	float:right;
+	text-align: right;
+}
+
+#cat-block .c-right h1 a, #cat-block .c-right p a, #cat-block .c-right h2 a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-size:12px;
+}
+#cat-block .c-right h1{
+	margin:0;
+	padding:0;
+	padding-top:10px;
+	font-family: 'Montserrat';
+	font-size:12px;
+}
+#cat-block .c-right p{
+	margin:0;
+	padding:0;
+	padding-top:10px;
+	font-size:10px;
+	color:#666666;
+}
+#cat-block .c-right h2{
+	margin:0;
+	padding:0;
+	padding-top:10px;
+	font-size:12px;
+	margin-bottom:10px;
+}
+#cat-button{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #4D8802;
+	border-radius: 100px;
+	padding-top:16px;
+	padding-left:18px;
+	margin-top:20px;
+	margin-left:25px;
+}
+#cat-button a{
+	color:white;
+}
+
+/**/
+/**/
+
+.deyatel ul li a{
+	color: black;
+	text-transform: uppercase;
+}
+.deyatel ul .active a{
+	color: #4D8802;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size:18px;
+}
+.deyatel ul li a{
+	/*padding:10px;*/
+	/*padding-bottom:0;*/
+	/*margin-bottom:0;*/
+	/*color: black;*/
+	/*font-size:18px;*/
+}
+.davay{
+	height: 200px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+.davay h1{
+	padding-top:20px;
+}
+.davay p{
+	padding-top:10px;
+	margin-bottom:20px;
+}
+.davay .col-lg-8 a{
+	border: 1px solid grey;
+	color: #4D8802;
+	border-radius: 10px;
+	padding:10px;
+	/*padding-top:30px;*/
+	/*padding-left:30px;*/
+}
+.davay img{
+	padding-top:10px;
+	width: 300px;
+	/*float: right;*/
+}
+.clear{
+	/*clear:both;*/
+}
+.recomendatsiya ul li a{
+	color: black;
+	text-transform: uppercase;
+}
+.recomendatsiya ul .active a{
+	color: #4D8802;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size:18px;
+}
+.recomendatsiya div{
+	margin-left:30px;
+	border-top: 10px solid #4D8802;
+	border-radius: 10px 10px 0px 0px;;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.recomendatsiya div img{
+	width: 150px;
+	height: 150px;
+}
+#cat-button2{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #4D8802;
+	border-radius: 100px;
+	padding-top:6px;
+	padding-left:18px;
+	margin-top:50px;
+	margin-left:85px;
+}
+#cat-button2 a{
+	color:white;
+}
+.sitata {
+	margin-top:20px;
+
+}
+.sitata img{
+	margin: 10px;
+	border: 15px;
+	height: 200px; 
+	width: 100%; 
+}
+.gorod .col-lg-2{
+	margin-left:30px;
+	border-left:5px solid #4D8802;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.univer .col-lg-2{
+	margin-left:30px;
+	border-left:5px solid #4D8802;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+footer{
+	margin-top:20px;
+	background: #E3E3E3;
+}
+footer ul{
+	list-style-type: none;
+}
+footer .col-lg-3 ul li a img{
+	width: 100px;
+}
+/* /content */
+/* RESULT*/
+/*RESULT*/
+
+.result .vakansiyalar .col-lg-3{
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	height: 120px;
+}
+.result .vakansiyalar .col-lg-9{
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+	height: 120px;
+	border-radius: 20px;
+	padding-left:20px;
+	border-radius: 20px;
+}
+.result .filtr{
+	border-radius: 20px 20px 0px 0px;
+}
+.result .filtr .head{
+	background: #EFEFEF;
+	border-radius: 20px 20px 0px 0px;
+	padding: 7px;
+}
+.result .filtr .content{
+	padding-left: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 0 0 20px 20px;
+	padding-bottom: 5px;
+}
+.result .filtr .content h1{
+	margin-top: 0;
+	padding: 5px;
+}
+.result .filtr .content div ul{
+	list-style-type: none;
+}
+.result .filtr .content div ul li a{
+	text-decoration: none;
+}
+
+.result .headtext .col-lg-12{
+	border-left:10px solid #4D8802;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-bottom:15px;
+}
+/*/RESULT*/
+/*vakan*/
+
+.vakansiya .col-lg-8{
+}
+.vakansiya .col-lg-8 .firma-head div{
+	display: inline-block;
+}
+
+.vakansiya .vak-right{
+	margin:0;
+	padding:0;
+	border: 1px solid grey;
+}
+.vakansiya .vak-right h1{
+	padding: 10px;
+	margin:inherit;
+}
+.vakansiya .vak-right .vak-head{
+	background: #4D8802;
+	color:white;
+}
+.vakansiya .vak-right .vak-body{
+	border-bottom:1px solid grey;
+}
+.vakansiya .vak-right .vak-foot span{
+	padding:15px;
+}
+.vakansiya .vak-right .vak-foot p{
+	display: inline-block;
+}
+.vakansiya .vak-right .vak-foot a{
+	background: #CF8B4D;
+	color:white;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+}
+.vakansiya .vak-right .vak-foot{
+	border-bottom:1px solid grey;
+}
+
+.vakansiya .vak-right .vak-form{
+	padding: 15px;
+	border-bottom:1px solid grey;
+}
+.vakansiya .vak-right .vak-form .form-group button{
+	background: #E8A466;
+	color: white;
+	margin-top:10px;
+	margin-left:150px;
+}
+
+/*/vakan*/
